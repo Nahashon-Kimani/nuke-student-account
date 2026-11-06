@@ -7,6 +7,12 @@
 # Run from Git Bash on Windows, or another Bash shell with AWS CLI configured.
 # For the Windows installation used in this workflow, the script detects:
 #   /c/awscleanup/aws-nuke.exe
+# 
+# To run the script
+# 1. Make sure AWS Nuke is installed and available in the PATH, or set AWS_NUKE_BIN to its executable path.
+# 2. Create Root user access keys. 
+# 3. Configure the AWS CLI with the Root user access keys.
+# 4. Run the script bash ./nuke-student-account.sh
 #
 set -Eeuo pipefail
 
