@@ -1,0 +1,13 @@
+regions:
+  - all
+
+blocklist:
+  - "408949636936"
+
+blocklist-terms:
+  - "prod"
+  - "production"
+  - "live"
+
+accounts:
+  "325657596892": {}
